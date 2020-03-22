@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/itemSudokuBoardMenuResume"
+        android:title="@string/itemSudokuBoardMenuResume"/>
+
+    <item android:id="@+id/itemSudokuBoardMenuWhatToDo"
+        android:title="@string/itemSudokuBoardMenuWhatToDo"/>
+
+    <item android:id="@+id/itemSudokuBoardMenuRestart"
+        android:title="@string/itemSudokuBoardMenuRestart"/>
+
+    <item
+        android:id="@+id/itemSudokuBoardMenuExit"
+        android:title="@string/itemSudokuBoardMenuExit" />
+
+</menu>

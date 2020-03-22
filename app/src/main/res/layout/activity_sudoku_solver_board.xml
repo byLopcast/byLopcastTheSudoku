@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SudokuSolverBoard">
+
+    <TableLayout
+        android:id="@+id/tableSudokuSolverBoardMainTable"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable11"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable12"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable13"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable14"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable15"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable16"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable17"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable18"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable19"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable21"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable22"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable23"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable24"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable25"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable26"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable27"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable28"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable29"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable31"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable32"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable33"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable34"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable35"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable36"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable37"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable38"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable39"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable41"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable42"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable43"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable44"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable45"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable46"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable47"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable48"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable49"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable51"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable52"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable53"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable54"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable55"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable56"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable57"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable58"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable59"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable61"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable62"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable63"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable64"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable65"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable66"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable67"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable68"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable69"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable71"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable72"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable73"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable74"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable75"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable76"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable77"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable78"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable79"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable81"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable82"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable83"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable84"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable85"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable86"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable87"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable88"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable89"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable91"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable92"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable93"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable94"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable95"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable96"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable97"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable98"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/numberSudokuSolverBoardMainTable99"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonSudokuSolverBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="navigationSolverBoardSolve"
+        android:text="@string/buttonSudokuSolverBoard"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tableSudokuSolverBoardMainTable" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

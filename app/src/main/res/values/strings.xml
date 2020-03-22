@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">byLopcastTheSudoku</string>
+
+    <!-- Screen HOME PAGE -->
+    <string name="screenHomePage">TheSudoku</string>
+    <string name="buttonHomePagePlay">Play</string>
+    <string name="buttonHomePageResolve">Resolve</string>
+    <string name="buttonHomePageGuide">Guide</string>
+    <string name="buttonHomePageHighScores">HighScores</string>
+    <string name="buttonHomePageSettings">Settings</string>
+    <string name="buttonHomePageExit">Exit</string>
+
+    <!-- Screen DIFFICULTY SELECTION-->
+    <string name="screenDifficultySelection">Difficulty Selection</string>
+    <string name="buttonDifficultyVeryHard">Very Hard</string>
+    <string name="buttonDifficultyHard">Hard</string>
+    <string name="buttonDifficultyNormal">Normal</string>
+    <string name="buttonDifficultyBasic">Basic</string>
+    <string name="buttonDifficultyBack">Back</string>
+
+    <!-- Screen SUDOKU BOARD - Main Board -->
+    <string name="screenSudokuBoard">Sudoku Board</string>
+    <string name="tableSudokuBoardMainTable">Main Board</string>
+
+    <string name="numberSudokuBoardMainTable11"></string>
+    <string name="numberSudokuBoardMainTable12"></string>
+    <string name="numberSudokuBoardMainTable13"></string>
+    <string name="numberSudokuBoardMainTable14"></string>
+    <string name="numberSudokuBoardMainTable15"></string>
+    <string name="numberSudokuBoardMainTable16"></string>
+    <string name="numberSudokuBoardMainTable17"></string>
+    <string name="numberSudokuBoardMainTable18"></string>
+    <string name="numberSudokuBoardMainTable19"></string>
+
+    <string name="numberSudokuBoardMainTable21"></string>
+    <string name="numberSudokuBoardMainTable22"></string>
+    <string name="numberSudokuBoardMainTable23"></string>
+    <string name="numberSudokuBoardMainTable24"></string>
+    <string name="numberSudokuBoardMainTable25"></string>
+    <string name="numberSudokuBoardMainTable26"></string>
+    <string name="numberSudokuBoardMainTable27"></string>
+    <string name="numberSudokuBoardMainTable28"></string>
+    <string name="numberSudokuBoardMainTable29"></string>
+
+    <string name="numberSudokuBoardMainTable31"></string>
+    <string name="numberSudokuBoardMainTable32"></string>
+    <string name="numberSudokuBoardMainTable33"></string>
+    <string name="numberSudokuBoardMainTable34"></string>
+    <string name="numberSudokuBoardMainTable35"></string>
+    <string name="numberSudokuBoardMainTable36"></string>
+    <string name="numberSudokuBoardMainTable37"></string>
+    <string name="numberSudokuBoardMainTable38"></string>
+    <string name="numberSudokuBoardMainTable39"></string>
+
+    <string name="numberSudokuBoardMainTable41"></string>
+    <string name="numberSudokuBoardMainTable42"></string>
+    <string name="numberSudokuBoardMainTable43"></string>
+    <string name="numberSudokuBoardMainTable44"></string>
+    <string name="numberSudokuBoardMainTable45"></string>
+    <string name="numberSudokuBoardMainTable46"></string>
+    <string name="numberSudokuBoardMainTable47"></string>
+    <string name="numberSudokuBoardMainTable48"></string>
+    <string name="numberSudokuBoardMainTable49"></string>
+
+    <string name="numberSudokuBoardMainTable51"></string>
+    <string name="numberSudokuBoardMainTable52"></string>
+    <string name="numberSudokuBoardMainTable53"></string>
+    <string name="numberSudokuBoardMainTable54"></string>
+    <string name="numberSudokuBoardMainTable55"></string>
+    <string name="numberSudokuBoardMainTable56"></string>
+    <string name="numberSudokuBoardMainTable57"></string>
+    <string name="numberSudokuBoardMainTable58"></string>
+    <string name="numberSudokuBoardMainTable59"></string>
+
+    <string name="numberSudokuBoardMainTable61"></string>
+    <string name="numberSudokuBoardMainTable62"></string>
+    <string name="numberSudokuBoardMainTable63"></string>
+    <string name="numberSudokuBoardMainTable64"></string>
+    <string name="numberSudokuBoardMainTable65"></string>
+    <string name="numberSudokuBoardMainTable66"></string>
+    <string name="numberSudokuBoardMainTable67"></string>
+    <string name="numberSudokuBoardMainTable68"></string>
+    <string name="numberSudokuBoardMainTable69"></string>
+
+    <string name="numberSudokuBoardMainTable71"></string>
+    <string name="numberSudokuBoardMainTable72"></string>
+    <string name="numberSudokuBoardMainTable73"></string>
+    <string name="numberSudokuBoardMainTable74"></string>
+    <string name="numberSudokuBoardMainTable75"></string>
+    <string name="numberSudokuBoardMainTable76"></string>
+    <string name="numberSudokuBoardMainTable77"></string>
+    <string name="numberSudokuBoardMainTable78"></string>
+    <string name="numberSudokuBoardMainTable79"></string>
+
+    <string name="numberSudokuBoardMainTable81"></string>
+    <string name="numberSudokuBoardMainTable82"></string>
+    <string name="numberSudokuBoardMainTable83"></string>
+    <string name="numberSudokuBoardMainTable84"></string>
+    <string name="numberSudokuBoardMainTable85"></string>
+    <string name="numberSudokuBoardMainTable86"></string>
+    <string name="numberSudokuBoardMainTable87"></string>
+    <string name="numberSudokuBoardMainTable88"></string>
+    <string name="numberSudokuBoardMainTable89"></string>
+
+    <string name="numberSudokuBoardMainTable91"></string>
+    <string name="numberSudokuBoardMainTable92"></string>
+    <string name="numberSudokuBoardMainTable93"></string>
+    <string name="numberSudokuBoardMainTable94"></string>
+    <string name="numberSudokuBoardMainTable95"></string>
+    <string name="numberSudokuBoardMainTable96"></string>
+    <string name="numberSudokuBoardMainTable97"></string>
+    <string name="numberSudokuBoardMainTable98"></string>
+    <string name="numberSudokuBoardMainTable99"></string>
+
+    <!-- Screen SUDOKU BOARD - Setter Board -->
+    <string name="tableSudokuBoardSetterTable">Value selector</string>
+    <string name="numberSudokuBoardSetterTable11"></string>
+    <string name="numberSudokuBoardSetterTable12"></string>
+    <string name="numberSudokuBoardSetterTable13"></string>
+    <string name="numberSudokuBoardSetterTable21"></string>
+    <string name="numberSudokuBoardSetterTable22"></string>
+    <string name="numberSudokuBoardSetterTable23"></string>
+    <string name="numberSudokuBoardSetterTable31"></string>
+    <string name="numberSudokuBoardSetterTable32"></string>
+    <string name="numberSudokuBoardSetterTable33"></string>
+
+
+    <!-- Screen SUDOKU BOARD - In game menu -->
+    <string name="buttonSudokuBoardMenu">Menu</string>
+    <string name="itemSudokuBoardMenuResume">Resume</string>
+    <string name="itemSudokuBoardMenuWhatToDo">What to do?</string>
+    <string name="itemSudokuBoardMenuRestart">Restart</string>
+    <string name="itemSudokuBoardMenuExit">Exit</string>
+
+    <!-- Screen Sudoku Solver board -->
+    <string name="screenSudokuSolverBoard">Sudoku Solver Board</string>
+    <string name="tableSudokuSolverBoardMainTable">Main Solver Board</string>
+
+    <string name="numberSudokuSolverBoardMainTable11"></string>
+    <string name="numberSudokuSolverBoardMainTable12"></string>
+    <string name="numberSudokuSolverBoardMainTable13"></string>
+    <string name="numberSudokuSolverBoardMainTable14"></string>
+    <string name="numberSudokuSolverBoardMainTable15"></string>
+    <string name="numberSudokuSolverBoardMainTable16"></string>
+    <string name="numberSudokuSolverBoardMainTable17"></string>
+    <string name="numberSudokuSolverBoardMainTable18"></string>
+    <string name="numberSudokuSolverBoardMainTable19"></string>
+
+    <string name="numberSudokuSolverBoardMainTable21"></string>
+    <string name="numberSudokuSolverBoardMainTable22"></string>
+    <string name="numberSudokuSolverBoardMainTable23"></string>
+    <string name="numberSudokuSolverBoardMainTable24"></string>
+    <string name="numberSudokuSolverBoardMainTable25"></string>
+    <string name="numberSudokuSolverBoardMainTable26"></string>
+    <string name="numberSudokuSolverBoardMainTable27"></string>
+    <string name="numberSudokuSolverBoardMainTable28"></string>
+    <string name="numberSudokuSolverBoardMainTable29"></string>
+
+    <string name="numberSudokuSolverBoardMainTable31"></string>
+    <string name="numberSudokuSolverBoardMainTable32"></string>
+    <string name="numberSudokuSolverBoardMainTable33"></string>
+    <string name="numberSudokuSolverBoardMainTable34"></string>
+    <string name="numberSudokuSolverBoardMainTable35"></string>
+    <string name="numberSudokuSolverBoardMainTable36"></string>
+    <string name="numberSudokuSolverBoardMainTable37"></string>
+    <string name="numberSudokuSolverBoardMainTable38"></string>
+    <string name="numberSudokuSolverBoardMainTable39"></string>
+
+    <string name="numberSudokuSolverBoardMainTable41"></string>
+    <string name="numberSudokuSolverBoardMainTable42"></string>
+    <string name="numberSudokuSolverBoardMainTable43"></string>
+    <string name="numberSudokuSolverBoardMainTable44"></string>
+    <string name="numberSudokuSolverBoardMainTable45"></string>
+    <string name="numberSudokuSolverBoardMainTable46"></string>
+    <string name="numberSudokuSolverBoardMainTable47"></string>
+    <string name="numberSudokuSolverBoardMainTable48"></string>
+    <string name="numberSudokuSolverBoardMainTable49"></string>
+
+    <string name="numberSudokuSolverBoardMainTable51"></string>
+    <string name="numberSudokuSolverBoardMainTable52"></string>
+    <string name="numberSudokuSolverBoardMainTable53"></string>
+    <string name="numberSudokuSolverBoardMainTable54"></string>
+    <string name="numberSudokuSolverBoardMainTable55"></string>
+    <string name="numberSudokuSolverBoardMainTable56"></string>
+    <string name="numberSudokuSolverBoardMainTable57"></string>
+    <string name="numberSudokuSolverBoardMainTable58"></string>
+    <string name="numberSudokuSolverBoardMainTable59"></string>
+
+    <string name="numberSudokuSolverBoardMainTable61"></string>
+    <string name="numberSudokuSolverBoardMainTable62"></string>
+    <string name="numberSudokuSolverBoardMainTable63"></string>
+    <string name="numberSudokuSolverBoardMainTable64"></string>
+    <string name="numberSudokuSolverBoardMainTable65"></string>
+    <string name="numberSudokuSolverBoardMainTable66"></string>
+    <string name="numberSudokuSolverBoardMainTable67"></string>
+    <string name="numberSudokuSolverBoardMainTable68"></string>
+    <string name="numberSudokuSolverBoardMainTable69"></string>
+
+    <string name="numberSudokuSolverBoardMainTable71"></string>
+    <string name="numberSudokuSolverBoardMainTable72"></string>
+    <string name="numberSudokuSolverBoardMainTable73"></string>
+    <string name="numberSudokuSolverBoardMainTable74"></string>
+    <string name="numberSudokuSolverBoardMainTable75"></string>
+    <string name="numberSudokuSolverBoardMainTable76"></string>
+    <string name="numberSudokuSolverBoardMainTable77"></string>
+    <string name="numberSudokuSolverBoardMainTable78"></string>
+    <string name="numberSudokuSolverBoardMainTable79"></string>
+
+    <string name="numberSudokuSolverBoardMainTable81"></string>
+    <string name="numberSudokuSolverBoardMainTable82"></string>
+    <string name="numberSudokuSolverBoardMainTable83"></string>
+    <string name="numberSudokuSolverBoardMainTable84"></string>
+    <string name="numberSudokuSolverBoardMainTable85"></string>
+    <string name="numberSudokuSolverBoardMainTable86"></string>
+    <string name="numberSudokuSolverBoardMainTable87"></string>
+    <string name="numberSudokuSolverBoardMainTable88"></string>
+    <string name="numberSudokuSolverBoardMainTable89"></string>
+
+    <string name="numberSudokuSolverBoardMainTable91"></string>
+    <string name="numberSudokuSolverBoardMainTable92"></string>
+    <string name="numberSudokuSolverBoardMainTable93"></string>
+    <string name="numberSudokuSolverBoardMainTable94"></string>
+    <string name="numberSudokuSolverBoardMainTable95"></string>
+    <string name="numberSudokuSolverBoardMainTable96"></string>
+    <string name="numberSudokuSolverBoardMainTable97"></string>
+    <string name="numberSudokuSolverBoardMainTable98"></string>
+    <string name="numberSudokuSolverBoardMainTable99"></string>
+
+    <string name="buttonSudokuSolverBoard">Solve</string>
+
+</resources>
