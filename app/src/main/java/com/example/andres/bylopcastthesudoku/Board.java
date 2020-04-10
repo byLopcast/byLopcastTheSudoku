@@ -21,7 +21,6 @@ public class Board {
         this.boardNumbers[v_row][v_column] = v_value;
     }
 
-
     public boolean checkBoard (){
         for (int row = 0; row < 9; row++) {
             if (!checkRow(row)) {

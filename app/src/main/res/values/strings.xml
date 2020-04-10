@@ -4,7 +4,7 @@
     <!-- Screen HOME PAGE -->
     <string name="screenHomePage">TheSudoku</string>
     <string name="buttonHomePagePlay">Play</string>
-    <string name="buttonHomePageResolve">Resolve</string>
+    <string name="buttonHomePageResolve">Solve</string>
     <string name="buttonHomePageGuide">Guide</string>
     <string name="buttonHomePageHighScores">HighScores</string>
     <string name="buttonHomePageSettings">Settings</string>
@@ -226,6 +226,42 @@
     <string name="numberSudokuSolverBoardMainTable98"></string>
     <string name="numberSudokuSolverBoardMainTable99"></string>
 
-    <string name="buttonSudokuSolverBoard">Solve</string>
+    <string name="buttonSolverBoardSolve">Solve</string>
+    <string name="buttonSolverBoardClear">Clear</string>
+
+    <!-- Screen Settings -->
+    <string name="screenSettings">Settings</string>
+    <string name="settingsNameString">Name</string>
+    <string name="settingsNameStore">Name</string>
+    <string name="settingsSoundString">Sound</string>
+    <string name="settingsSoundSwitch"></string>
+    <string name="settingsSave">Save</string>
+
+    <string name="settingsResetString">Reset</string>
+    <string name="settingsResetButton">Reset</string>
+
+    <!-- Screen High Scores -->
+    <string name="screenHighScores">High Scores</string>
+    <string name="scrollViewHighScores"></string>
+
+    <string name="highScoresHeader"></string>
+    <string name="highScoresRow1"></string>
+    <string name="highScoresRow2"></string>
+    <string name="highScoresRow3"></string>
+    <string name="highScoresRow4"></string>
+    <string name="highScoresRow5"></string>
+    <string name="highScoresRow6"></string>
+    <string name="highScoresRow7"></string>
+    <string name="highScoresRow8"></string>
+    <string name="highScoresRow9"></string>
+    <string name="highScoresRow10"></string>
+    <string name="highScoresRow11"></string>
+    <string name="highScoresRow12"></string>
+    <string name="highScoresRow13"></string>
+    <string name="highScoresRow14"></string>
+    <string name="highScoresRow15"></string>
+
+
+
 
 </resources>

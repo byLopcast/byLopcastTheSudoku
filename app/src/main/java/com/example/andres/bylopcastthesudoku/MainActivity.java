@@ -17,10 +17,8 @@ public class MainActivity extends AppCompatActivity {
 
     // Home Page - Button Play
     public void navigationHomePagePlay (View view){
-        // Intent intentHomePagePlay = new Intent(this, DifficultySelection.class);
-        // startActivity(intentHomePagePlay);
-
-        Toast.makeText(this, "Play is a functionality still to be developed.", Toast.LENGTH_SHORT).show();
+        Intent intentHomePagePlay = new Intent(this, DifficultySelection.class);
+        startActivity(intentHomePagePlay);
     }
 
     // Home Page - Button Resolve
@@ -36,17 +34,22 @@ public class MainActivity extends AppCompatActivity {
 
     // Home Page - Button High Scores
     public void navigationHomePageHighScores (View view){
-        Toast.makeText(this, "HighScores is a functionality still to be developed.", Toast.LENGTH_SHORT).show();
+        Intent intentHighScores = new Intent (this, HighScores.class);
+        startActivity(intentHighScores);
     }
 
     // Home Page - Button Settings
     public void navigationHomePageSettings (View view){
-        Toast.makeText(this, "Settings is a functionality still to be developed.", Toast.LENGTH_SHORT).show();
+        Intent intentSettings = new Intent(this, Settings.class);
+        startActivity(intentSettings);
     }
 
     // Home Page - Button Exit
     public void navigationHomePageExit (View view){
-        Toast.makeText(this, "Exit is a functionality still to be developed.", Toast.LENGTH_SHORT).show();
+        Intent intent = new Intent(Intent.ACTION_MAIN);
+        intent.addCategory(Intent.CATEGORY_HOME);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
     }
 
 }

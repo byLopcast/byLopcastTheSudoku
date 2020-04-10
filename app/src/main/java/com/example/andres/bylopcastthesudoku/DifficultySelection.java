@@ -17,30 +17,33 @@ public class DifficultySelection extends AppCompatActivity {
     // Difficulty selection - Button Very hard
     public void navigationDifficultyVeryHard (View view){
         Intent intentDifficultyVeryHard = new Intent(this, SudokuBoard.class);
+        intentDifficultyVeryHard.putExtra("Difficulty","VERY_HARD");
+
         startActivity(intentDifficultyVeryHard);
     }
 
     // Difficulty selection - Button Hard
     public void navigationDifficultyHard (View view){
         Intent intentDifficultyHard = new Intent(this, SudokuBoard.class);
+        intentDifficultyHard.putExtra("Difficulty","HARD");
+
         startActivity(intentDifficultyHard);
     }
 
     // Difficulty selection - Button Normal
     public void navigationDifficultyNormal (View view){
         Intent intentDifficultyNormal = new Intent(this, SudokuBoard.class);
+        intentDifficultyNormal.putExtra("Difficulty","NORMAL");
+
         startActivity(intentDifficultyNormal);
     }
 
     // Difficulty selection - Button Basic
     public void navigationDifficultyBasic (View view){
         Intent intentDifficultyBasic = new Intent(this, SudokuBoard.class);
+        intentDifficultyBasic.putExtra("Difficulty","BASIC");
+
         startActivity(intentDifficultyBasic);
     }
 
-    // Difficulty selection - Button Back
-    public void navigationDifficultyBack (View view){
-        Intent intentDifficultyBack = new Intent(this, MainActivity.class);
-        startActivity(intentDifficultyBack);
-    }
 }

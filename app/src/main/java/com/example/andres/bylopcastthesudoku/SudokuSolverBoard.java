@@ -111,8 +111,7 @@ public class SudokuSolverBoard extends AppCompatActivity {
     }
 
     // Solver Board- Button Solve
-    public void navigationSolverBoardSolve (View view){
-        //Toast.makeText(this, "Solver button has been pressed.", Toast.LENGTH_SHORT).show();
+    public void actionSolverBoardSolve(View view){
 
         int i, j;
 
@@ -126,12 +125,28 @@ public class SudokuSolverBoard extends AppCompatActivity {
             }
         }
 
-        this.SolverBoard.solveBoard();
+        if (!this.SolverBoard.solveBoard()){
+            Toast.makeText(this, "This board has no solution.", Toast.LENGTH_SHORT).show();
+        }
 
         for (i = 0; i < 9; i++) {
             for (j = 0; j < 9; j++) {
-                this.SSolv_text[i][j].setText(String.valueOf(this.SolverBoard.getBoardNumber(i,j)));
+                if (this.SolverBoard.getBoardNumber(i,j)> 0) {
+                    this.SSolv_text[i][j].setText(String.valueOf(this.SolverBoard.getBoardNumber(i, j)));
+                }
             }
         }
+    }
+
+    // Solver Board - Button Clear
+    public void actionSolverBoardClear(View view){
+        int i, j;
+
+        for (i = 0; i < 9; i++) {
+            for (j = 0; j < 9; j++) {
+                this.SSolv_text[i][j].getText().clear();
+            }
+        }
+
     }
 }

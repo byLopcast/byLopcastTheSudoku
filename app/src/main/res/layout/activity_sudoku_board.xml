@@ -10,7 +10,7 @@
         android:id="@+id/buttonSudokuBoardMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:onClick="openMenu"
@@ -20,13 +20,16 @@
 
     <TableLayout
         android:id="@+id/tableSudokuBoardMainTable"
-        android:layout_width="396dp"
-        android:layout_height="396dp"
-        android:layout_marginTop="128dp"
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@+id/buttonSudokuBoardMenu">
 
         <TableRow
             android:layout_width="match_parent"
@@ -34,150 +37,132 @@
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable11"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable12"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable13"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable14"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable15"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable16"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable17"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable18"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable19"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable21"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable22"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable23"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable24"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable25"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable26"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable27"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable28"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable29"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
@@ -185,232 +170,205 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable31"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable32"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable33"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable34"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable35"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable36"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable37"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable38"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable39"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable41"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable42"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable43"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable44"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable45"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable46"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable47"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable48"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable49"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
         </TableRow>
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable51"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable52"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable53"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable54"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable55"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable56"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable57"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable58"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable59"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
@@ -422,73 +380,64 @@
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable61"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable62"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable63"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable64"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable65"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable66"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable67"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable68"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable69"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
@@ -496,77 +445,68 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable71"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable72"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable73"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable74"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable75"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable76"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable77"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable78"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable79"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
         </TableRow>
@@ -577,152 +517,133 @@
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable81"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable82"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable83"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable84"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable85"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable86"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable87"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable88"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable89"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
         </TableRow>
 
 
-
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="168dp" >
+            android:layout_height="match_parent">
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable91"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable92"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable93"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable94"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable95"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable96"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable97"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable98"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable99"
-                android:layout_width="44dp"
-                android:layout_height="44dp"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
@@ -731,8 +652,8 @@
 
     <TableLayout
         android:id="@+id/tableSudokuBoardSetterTable"
-        android:layout_width="132dp"
-        android:layout_height="132dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -741,29 +662,26 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <EditText
                 android:id="@+id/numberSudokuBoardSetterTable11"
-                android:layout_width="44dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardSetterTable12"
-                android:layout_width="44dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardSetterTable13"
-                android:layout_width="44dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
@@ -771,58 +689,52 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <EditText
                 android:id="@+id/numberSudokuBoardSetterTable21"
-                android:layout_width="44dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardSetterTable22"
-                android:layout_width="44dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardSetterTable23"
-                android:layout_width="44dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <EditText
                 android:id="@+id/numberSudokuBoardSetterTable31"
-                android:layout_width="44dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardSetterTable32"
-                android:layout_width="44dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
 
             <EditText
                 android:id="@+id/numberSudokuBoardSetterTable33"
-                android:layout_width="44dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
                 android:ems="10"
                 android:inputType="number" />
         </TableRow>
