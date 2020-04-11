@@ -114,15 +114,15 @@
 
     <!-- Screen SUDOKU BOARD - Setter Board -->
     <string name="tableSudokuBoardSetterTable">Value selector</string>
-    <string name="numberSudokuBoardSetterTable11"></string>
-    <string name="numberSudokuBoardSetterTable12"></string>
-    <string name="numberSudokuBoardSetterTable13"></string>
-    <string name="numberSudokuBoardSetterTable21"></string>
-    <string name="numberSudokuBoardSetterTable22"></string>
-    <string name="numberSudokuBoardSetterTable23"></string>
-    <string name="numberSudokuBoardSetterTable31"></string>
-    <string name="numberSudokuBoardSetterTable32"></string>
-    <string name="numberSudokuBoardSetterTable33"></string>
+    <string name="numberSudokuBoardSetterTable11">1</string>
+    <string name="numberSudokuBoardSetterTable12">2</string>
+    <string name="numberSudokuBoardSetterTable13">3</string>
+    <string name="numberSudokuBoardSetterTable21">4</string>
+    <string name="numberSudokuBoardSetterTable22">5</string>
+    <string name="numberSudokuBoardSetterTable23">6</string>
+    <string name="numberSudokuBoardSetterTable31">7</string>
+    <string name="numberSudokuBoardSetterTable32">8</string>
+    <string name="numberSudokuBoardSetterTable33">9</string>
 
 
     <!-- Screen SUDOKU BOARD - In game menu -->

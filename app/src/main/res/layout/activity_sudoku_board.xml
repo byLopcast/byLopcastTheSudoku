@@ -40,7 +40,9 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:ems="10"
-                android:inputType="number" />
+                android:inputType="number"
+                android:maxLength="1"/>
+
 
             <EditText
                 android:id="@+id/numberSudokuBoardMainTable12"
@@ -664,79 +666,87 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <EditText
+            <ToggleButton
                 android:id="@+id/numberSudokuBoardSetterTable11"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:text="@string/numberSudokuBoardSetterTable11"
+                android:textOff="@string/numberSudokuBoardSetterTable11"
+                android:textOn="@string/numberSudokuBoardSetterTable11" />
 
-            <EditText
+            <ToggleButton
                 android:id="@+id/numberSudokuBoardSetterTable12"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:text="@string/numberSudokuBoardSetterTable12"
+                android:textOff="@string/numberSudokuBoardSetterTable12"
+                android:textOn="@string/numberSudokuBoardSetterTable12"  />
 
-            <EditText
+            <ToggleButton
                 android:id="@+id/numberSudokuBoardSetterTable13"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:ems="10"
-                android:inputType="number" />
-
+                android:text="@string/numberSudokuBoardSetterTable13"
+                android:textOff="@string/numberSudokuBoardSetterTable13"
+                android:textOn="@string/numberSudokuBoardSetterTable13" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <EditText
+            <ToggleButton
                 android:id="@+id/numberSudokuBoardSetterTable21"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:text="@string/numberSudokuBoardSetterTable21"
+                android:textOff="@string/numberSudokuBoardSetterTable21"
+                android:textOn="@string/numberSudokuBoardSetterTable21" />
 
-            <EditText
+            <ToggleButton
                 android:id="@+id/numberSudokuBoardSetterTable22"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:text="@string/numberSudokuBoardSetterTable22"
+                android:textOff="@string/numberSudokuBoardSetterTable22"
+                android:textOn="@string/numberSudokuBoardSetterTable22" />
 
-            <EditText
+            <ToggleButton
                 android:id="@+id/numberSudokuBoardSetterTable23"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:text="@string/numberSudokuBoardSetterTable23"
+                android:textOff="@string/numberSudokuBoardSetterTable23"
+                android:textOn="@string/numberSudokuBoardSetterTable23" />
         </TableRow>
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <EditText
+            <ToggleButton
                 android:id="@+id/numberSudokuBoardSetterTable31"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:text="@string/numberSudokuBoardSetterTable31"
+                android:textOff="@string/numberSudokuBoardSetterTable31"
+                android:textOn="@string/numberSudokuBoardSetterTable31" />
 
-            <EditText
+            <ToggleButton
                 android:id="@+id/numberSudokuBoardSetterTable32"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:text="@string/numberSudokuBoardSetterTable32"
+                android:textOff="@string/numberSudokuBoardSetterTable32"
+                android:textOn="@string/numberSudokuBoardSetterTable32" />
 
-            <EditText
+            <ToggleButton
                 android:id="@+id/numberSudokuBoardSetterTable33"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:ems="10"
-                android:inputType="number" />
+                android:text="@string/numberSudokuBoardSetterTable33"
+                android:textOff="@string/numberSudokuBoardSetterTable33"
+                android:textOn="@string/numberSudokuBoardSetterTable33" />
         </TableRow>
 
     </TableLayout>
